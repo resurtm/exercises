@@ -16,6 +16,15 @@
 // CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
+// Day 03 description is here:
+// https://mail.google.com/mail/u/0/#search/%2B%22daily+coding+problem%22+%2B%22problem+%233%22/FMfcgxwKjxGNlLpxWcdmmjwjnVVNGlCL
+
 pub fn solve() {
     println!("solve");
+}
+
+struct Node<T> {
+    val: T,
+    left: Node<T>,
+    right: Node<T>
 }
